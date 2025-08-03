@@ -20,12 +20,10 @@ public abstract class Robot extends LinearOpMode {
         subsystems = new ArrayList<>();
 
         // init subsystem instances
-        Drivetrain drivetrain = new Drivetrain();
-        Outtake outtake = new Outtake();
+//      Example: Drivetrain drivetrain = new Drivetrain();
 
         // add subsystems to list
-        subsystems.add(drivetrain);
-        subsystems.add(outtake);
+//      Example: subsystems.add(drivetrain);
     }
 
     protected void teleOp() {
